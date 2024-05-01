@@ -1,0 +1,185 @@
+*{
+    font-family: sans-serif, "Poppins";
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.steady {
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    padding-bottom: 20px; 
+    position: relative;
+    z-index: 1;
+}
+
+.header-box {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 18px;
+    width: 390px;
+    top: -40px;
+    left: -2px;
+    z-index: 999; 
+}
+
+.back-button{
+    position: relative;
+    left: -5px;
+    top: 55px;
+}
+
+.header-box .branch-name{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    margin-left: 47px;
+}
+
+.header-box .branch-number{
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 550;
+    margin-top: -10px;
+    margin-left: 47px;
+}
+
+.icon-logo{
+    position: relative;
+    height: 60px;
+    left: 314px;
+    top: -60px;
+}
+
+.cart-button{
+    position: relative;
+    top: -20px;
+    left: 254px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cart-button:hover{
+    color: #D6C78A;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: -20px;
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.search-bar input[type=text] {
+    padding: 13px;
+    width: 353px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.search-button{
+    position: relative;
+    top: -30px;
+    left: 150px;
+}
+
+
+.tab-menu {
+    position: relative; 
+    left: 20px;
+    width: calc(100% - 40px); 
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; 
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+.tab {
+    display: inline-flex; 
+    align-items: center; 
+    padding-top: -10px;
+    padding-right: 8px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.tab:hover{
+    background-color: #D6C78A;
+}
+
+.tab:last-child {
+    margin-right: 0;
+}
+
+.fa-solid {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.tab-text {
+    font-size: 13px;
+    margin-right: 3px;
+    color: rgb(31, 31, 31);
+}
+
+.product-section {
+    position: relative; 
+    z-index: 0; 
+    overflow-y: auto; 
+    height: calc(100vh - 60px); 
+    margin-top: -35px; 
+}
+
+
+.section1 {
+    position: relative;
+    top: 35px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+}
+
+
+.section-title {
+    font-size: 18px; 
+    color: #474747; 
+    margin-bottom: 25px; 
+    margin-top: 3px;
+    text-align: center;
+}
+
+.item-list {
+    display: block; 
+    margin-left: 10px;
+    flex-wrap: wrap; 
+}
+
+
+.item1, .item2, .item3, .item4, .item5 {
+    width: calc(20% - 20px); 
+    margin-right: 20px; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px; 
+}
