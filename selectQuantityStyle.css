@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif, "Poppins";
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.Pop-up-Box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    width: 260px; 
+}
+
+.exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+}
+
+.box-title h3 {
+    margin-left: 47px;
+}

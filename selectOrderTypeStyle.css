@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif, "Poppins";
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.Pop-up-Box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    width: 260px; 
+}
+
+.exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+}
+
+.box-title h3 {
+    margin-left: 37px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.button1, .button2, .button3 {
+    display: flex;
+    align-items: center; 
+    padding-top: -10px;
+    padding-right: -125px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #d6c68a;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button1:last-child, .button2:last-child, .button3:last-child {
+    margin-bottom: 0; 
+}
+
+.button1 > *, .button2 > *, .button3 > * {
+    margin-left: 10px; 
+}
+
+.button-text1 {
+    font-size: 15px;
+    margin-left: 46px;
+}
+
+.button-text2 {
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.button-text3 {
+    font-size: 15px;
+    margin-left: 49px;
+}
+
+
+.button1:hover, .button2:hover, .button3:hover {
+    background-color: black; 
+}
