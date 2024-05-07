@@ -1,0 +1,144 @@
+*{
+    font-family: sans-serif, "Poppins";
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.checkout-pop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    width: 300px; 
+}
+
+.exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+}
+
+.box-title h3 {
+    position: relative;
+    left: 110px;
+    margin-bottom: 0px;
+}
+
+.head-text{
+    font-size: 15px;
+    color: rgb(91, 91, 91);
+}
+
+.cash-method input[type="radio"],
+.cash-method .payment-method-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; /* Adjust margin as needed */
+}
+
+.card-method input[type="radio"],
+.card-method .payment-method-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; /* Adjust margin as needed */
+}
+
+
+.cash-method{
+    border: rgb(230, 230, 230) solid 1px;
+    margin-bottom: 8px;
+    padding-left: 13px;
+    border-radius: 5px;
+}
+
+.card-method{
+    border: rgb(226, 226, 226) solid 1px;
+    padding-left: 13px;
+    border-radius: 5px;
+}
+
+.card-method input[type="radio"]:checked + .card-method{
+    background-color: #d8d8d8; 
+}
+
+.cash-method {
+    border: rgb(230, 230, 230) solid 1px;
+    padding-left: 13px;
+    border-radius: 5px;
+}
+
+.cash-method input[type="radio"]:checked + .card-method {
+    background-color: #d8d8d8; 
+}
+
+.card-method{
+    border: rgb(226, 226, 226) solid 1px;
+    padding-left: 13px;
+    border-radius: 5px;
+}
+
+.payment-method-text {
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+.fa-money-bill{
+    position: relative;
+    left: 180px;
+    top: 3px;
+}
+
+.fa-credit-card{
+    position: relative;
+    left: 91px;
+    top: 3px;
+}
+
+.cash-confirmation-box {
+    display: none;
+    margin-top: 10px;
+    border: #d7d7d7 solid 1px;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.cash-confirm-message {
+    font-size: 12px;
+    color: rgb(91, 91, 91);
+    font-weight: 580;
+}
+
+.confirm-button {
+    position: relative;
+    left: 87px;
+    padding: 8px 20px;
+    background-color: #D6C68A;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.confirm-button:hover{
+    background-color: #000000;
+}
