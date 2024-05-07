@@ -1,0 +1,187 @@
+*{
+    font-family: sans-serif, "Poppins";
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header-box {
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 18px;
+    width: 100%;
+    top: -40px;
+    left: -2px;
+    z-index: 999; 
+}
+
+.back-button{
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+
+.title-name{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    left: 160px;
+}
+
+.icon-logo{
+    position: relative;
+    height: 60px;
+    left: 314px;
+    top: -38px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center; 
+}
+
+.fa-cart-shopping {
+   position: relative;
+   top: 19px;
+   left: 145px;
+}
+
+.cart-box{
+    margin-top: 150px;
+}
+
+.cart-item1 {
+    border: 1px solid #e1e1e1;
+    height: 370px;
+    width: 320px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 22px;
+}
+
+.shop-name {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.total-box {
+    display: flex;
+    flex-direction: column;
+    border: #e8e8e8 solid 1px;
+    background-color: #fdfdfd;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 15px;
+    color: #383838;
+}
+
+.total-label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.total-value{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.value{
+    font-size: 15px;
+    font-weight: 600;
+    color: #383838;
+}
+
+.checkout-button {
+    position: relative;
+    margin-top: 10px;
+    left: 218px;
+    background-color: #D6C68A;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.checkout-button:hover {
+    background-color: #000;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.food-item img {
+    width: 50px; /* Adjust image size as needed */
+    height: 50px; /* Adjust image size as needed */
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.food-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.food-details h3 {
+    margin: 0;
+}
+
+.name-and-price {
+    display: flex;
+}
+
+.quantity-value {
+    position: absolute;
+    font-size: 15px;
+    top: 63px;
+    left: 77px;
+    color: rgb(108, 108, 108);
+}
+
+.item-name{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.price-tag {
+    font-size: 12px;
+}
+
+.item-price {
+    font-size: 14px;
+    position: relative;
+    left: 106px;
+    bottom: 17px;
+    color: rgb(66, 66, 66);
+}
+
+.fa-trash{
+    position: relative;
+    left: 120px;
+    top: 2px;
+}
