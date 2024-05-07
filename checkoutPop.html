@@ -41,6 +41,28 @@
                     <h4 class="payment-method-text">Credit / Debit Card</h4>
                     <i class="fa-solid fa-credit-card" style="color: #333333;"></i>
                 </div>
+                <div class="card-confirmation-box">
+                    <form action="" class="card-details-form">
+                        <div class="form-group">
+                            <label for="card-number">Card Number:</label>
+                            <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="expiry-date">Expiry Date:</label>
+                            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YYYY" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="card-holder-name">Cardholder Name:</label>
+                            <input type="text" id="card-holder-name" name="card-holder-name" placeholder="Enter cardholder name" required>
+                        </div>
+                        <button type="submit">Pay Now</button>
+                    </form>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -77,11 +99,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const cardMethod = document.querySelector('.card-method');
     const cardRadio = document.getElementById('card');
-    const cardConfirmationBox = document.querySelector('.cash-confirmation-box');
+    const cardConfirmationBox = document.querySelector('.card-confirmation-box');
 
     cardMethod.addEventListener('click', function() {
         cardRadio.checked = true;
-        cashConfirmationBox.style.display = 'none';
+        cashConfirmationBox.style.display = 'none'; 
+        cardConfirmationBox.style.display = 'block'; 
+    });
+
+    cashMethod.addEventListener('click', function() {
+        cardConfirmationBox.style.display = 'none'; 2
     });
 });
 
